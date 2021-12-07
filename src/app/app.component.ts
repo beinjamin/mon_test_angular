@@ -11,6 +11,7 @@ export class AppComponent {
   constructor(){
    setTimeout(() => {
      this.isAuth = true;
+
    }, 4000);
   }
 }
