@@ -14,6 +14,7 @@ export class AppareilComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  /*   Interpolation &&& properties brading laison du code typescript ver le template */
   getStatus()  {
     return this.appareilStatus;
   }

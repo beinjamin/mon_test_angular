@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   isAuth = false;
+
+
+/*   Interpolation &&& properties brading laison du code typescript ver le template */
   constructor(){
    setTimeout(() => {
      this.isAuth = true;
