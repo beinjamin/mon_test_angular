@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { setTimeout } from 'timers';
+
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,6 @@ export class AppComponent {
   constructor(){
    setTimeout(() => {
      this.isAuth = true;
-   }, 4000
-   );
+   }, 4000);
   }
 }
