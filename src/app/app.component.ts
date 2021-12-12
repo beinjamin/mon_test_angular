@@ -12,14 +12,14 @@ export class AppComponent {
 
 /*   Interpolation &&& properties brading laison du code typescript ver le template */
   constructor(){
-   setTimeout(() => {
-     this.isAuth = true;
+    setTimeout(() => {
+      this.isAuth = true;
 
-   }, 4000
-   );
+    }, 4000
+    );
+    }
+
+  onAllumer() {
+    console.log('allumer');
   }
-
- onAllumer() {
-   console.log('allumer');
- }
 }

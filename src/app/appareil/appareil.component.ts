@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-appareil',
@@ -6,17 +6,14 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./appareil.component.scss']
 })
 export class AppareilComponent implements OnInit {
-  @Input()
-  appareilName!: string;
+  appareilName = 'Machine a laver';
   appareilStatus = 'eteint';
-
-
   constructor() { }
 
   ngOnInit(): void {
   }
-  /*   Interpolation &&& properties brading laison du code typescript ver le template */
-  getStatus()  {
+  getStatus() {
     return this.appareilStatus;
   }
+
 }
