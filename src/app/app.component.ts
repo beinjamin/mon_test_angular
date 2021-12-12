@@ -11,7 +11,10 @@ export class AppComponent {
 
 
 /*   Interpolation &&& properties brading laison du code typescript ver le template */
-  constructor(){
+  appareilOne = 'Machine a laver';
+  appareilTwo = 'Television';
+  appareilThree = 'Ordinateur';
+constructor(){
     setTimeout(() => {
       this.isAuth = true;
 
