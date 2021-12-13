@@ -7,8 +7,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  isAuth = false;
-
+    isAuth = false;
+    appareils = [
+    {name: 'Machine a laver',
+      status: 'eteint'
+    },
+    {
+      name: 'television',
+      status:'allume'
+    },
+    {
+      name :'ordinateur',
+      status:'eteint'
+    }
+  ]
 
 /*   Interpolation &&& properties brading laison du code typescript ver le template */
   appareilOne = 'Machine a laver';
