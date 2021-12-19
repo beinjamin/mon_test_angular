@@ -10,7 +10,7 @@ export class AppComponent {
     isAuth = false;
     appareils = [
     {name: 'Machine a laver',
-      status: 'eteint'
+      status: 'allume'
     },
     {
       name: 'television',
